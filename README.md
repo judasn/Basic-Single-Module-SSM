@@ -20,6 +20,7 @@
         - mybatis version：**3.3.1**
         - mybatis-spring version：**1.2.4**
 
+## mybatis插件破解地址:https://github.com/myoss/profile/tree/master/idea/plugin/MybatisPlugin
 
 
 ## 项目演示视频下载
