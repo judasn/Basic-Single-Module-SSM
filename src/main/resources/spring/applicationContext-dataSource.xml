@@ -13,7 +13,7 @@ http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
         <property name="url" value="${data_source_url}" />
         <property name="username" value="${data_source_username}" />
-        <property name="password" value="${data_source_passworddata_source_password}" />
+        <property name="password" value="${data_source_password}" />
         &lt;!&ndash; 初始化连接大小 &ndash;&gt;
         <property name="initialSize" value="0"></property>
         &lt;!&ndash; 连接池最大数量 &ndash;&gt;
