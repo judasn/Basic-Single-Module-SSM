@@ -1,8 +1,8 @@
 # 创建数据库，并创建权限用户
-# CREATE DATABASE 'ssm' CHARACTER SET utf8;
+# CREATE DATABASE 'haoyangwa_test' CHARACTER SET utf8;
 CREATE DATABASE ssm CHARACTER SET utf8 COLLATE utf8_general_ci;
-CREATE USER 'ssm'@'%' IDENTIFIED BY 'ssm';
-GRANT ALL PRIVILEGES ON ssm.* TO 'ssm'@'%';
+CREATE USER 'haoyangwa_test'@'%' IDENTIFIED BY 'haoyangwa_test';
+GRANT ALL PRIVILEGES ON ssm.* TO 'haoyangwa_test'@'%';
 FLUSH PRIVILEGES;
 
 
