@@ -19,7 +19,7 @@
 
 <br>
 
-<a href="/sysUserController/showUserToJspById/1" target="_blank">查询用户信息并跳转到一个JSP页面</a>
+<a href="/hywUserInfoController/showHywUserList/1" target="_blank">查询用户信息并跳转到一个JSP页面</a>
 
 <br>
 
