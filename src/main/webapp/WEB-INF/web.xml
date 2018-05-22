@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://java.sun.com/xml/ns/javaee"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
-    
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
     <display-name>SSM Web Application</display-name>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
-    
-    
+
+
     <!-- Spring和mybatis的配置文件 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -29,7 +30,7 @@
     <session-config>
         <session-timeout>15</session-timeout>
     </session-config>
-    
+
     <!-- ############################################ filter start  ############################################ -->
     <!-- 编码过滤器 -->
     <filter>
@@ -64,15 +65,14 @@
         <filter-name>DruidWebStatFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-    
-    
+
 
     <!-- ############################################ filter end  ############################################ -->
 
 
     <!-- ############################################ servlet start  ############################################ -->
 
-    
+
     <!-- Spring MVC servlet -->
     <servlet>
         <servlet-name>SpringMVC</servlet-name>
@@ -105,11 +105,9 @@
         <!--访问路径eg：http://localhost:8080/druid/index.html -->
         <url-pattern>/druid/*</url-pattern>
     </servlet-mapping>
-    
-    
+
+
     <!-- ############################################ servlet end  ############################################ -->
-
-
 
 
 </web-app>

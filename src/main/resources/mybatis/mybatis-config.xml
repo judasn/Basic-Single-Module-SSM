@@ -11,7 +11,7 @@
 		<setting name="lazyLoadingEnabled" value="false"/>
 		
 		<!--设置超时时间-->
-		<setting name="defaultStatementTimeout" value="3000"/>
+		<setting name="defaultStatementTimeout" value="5000"/>
 		
 		
 		<!--本地缓存机制-->
