@@ -54,7 +54,7 @@
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
 
         <httpclient.version>4.3.3</httpclient.version>
-        <jackson-databind.version>2.4.2</jackson-databind.version>
+        <jackson-databind.version>2.9.10.1</jackson-databind.version>
         <fastjson.version>1.1.43</fastjson.version>
         <!--架包版本变量 end-->
 
