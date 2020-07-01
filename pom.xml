@@ -36,7 +36,7 @@
 
 
         <junit.version>4.11</junit.version>
-        <mysql-connector.version>5.1.21</mysql-connector.version>
+        <mysql-connector.version>8.0.16</mysql-connector.version>
         <druid.version>1.0.4</druid.version>
 
         <!--<slf4j.version>1.7.7</slf4j.version>-->
