@@ -35,7 +35,7 @@
         <persistence-api.version>1.0.2</persistence-api.version>
 
 
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.1</junit.version>
         <mysql-connector.version>5.1.21</mysql-connector.version>
         <druid.version>1.0.4</druid.version>
 
